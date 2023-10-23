@@ -5,6 +5,6 @@ public class Main {
        Text text = new Text();
        Save save = new Save();
 
-       save.Time_writer(text.toString());
+       save.Time_writer(text.toStrin());
     }
 }

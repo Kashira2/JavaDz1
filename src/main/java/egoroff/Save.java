@@ -12,7 +12,7 @@ public class Save {
             FileWriter fw = new FileWriter("time.txt", true);
             fw.write(text);
             PrintWriter out = new PrintWriter(fw);
-            DateFormat dateF = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+            DateFormat dateF = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss\n");
 
             Calendar cal = Calendar.getInstance();
             String time = dateF.format(cal.getTime());
